@@ -27,7 +27,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    background: #bc0d0d;
+    background: #4A90E2;
 }
 
 nav ul li {
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #ca1414;
+    background: #4A90E2;
     border-radius: 5px;
 }
 
@@ -70,7 +70,7 @@ form input, form textarea {
 }
 
 form button {
-    background: #ca1414;
+    background: #4A90E2;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -78,7 +78,7 @@ form button {
 }
 
 form button:hover {
-    background: #a00f0f;
+    background: #4A90E2;
 }
 
 section img {
