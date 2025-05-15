@@ -4,50 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/PROYECT OLIVERA/CSS/style.css">
-    <title>Mi Sitio Web</title>
+    <title>Mi Portafolio</title>
 </head>
 <body>
 
 <header>
     <div class="logo">
-        <img src="imagenes/logo_dp_mas.png" alt="Logo"><!--mamahuevo-->
+        <img src="imagenes/logo_dp_mas.png" alt="Logo">
     </div>
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#informacion">Información</a></li>
-            <li><a href="#iniciar-sesion">Iniciar sesión</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
+
+    <!-- INICIO: Presentación corta -->
     <section id="inicio">
-        <h2>Bienvenido a nuestra página</h2>
-        <p>Este es el inicio del sitio web.</p>
+        <div class="perfil">
+            <img src="/PROYECT OLIVERA/imagenes/foto_personal" alt="Foto de [Tu Nombre]" class="foto-personal">
+            <div class="datos">
+                <h2>¡Hola, soy [Tu Nombre]!</h2>
+                <p>Estudiante de desarrollo de software apasionado por la tecnología y la creación de soluciones innovadoras.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>Aquí se mostrarán nuestros proyectos destacados.</p>
-        <img src="imagenes/proyecto1.png" alt="Proyecto 1">
-    </section>
-
+    <!-- INFORMACIÓN: Detalles académicos y técnicos -->
     <section id="informacion">
-        <h2>Información</h2>
-        <p>Más sobre nosotros y lo que hacemos.</p>
+    <h2>Información Personal y Profesional</h2>
+    <div class="info-grid">
+
+        <div class="info-box">
+            <h3>📧 Contacto</h3>
+            <p><strong>Correo:</strong> tunombre@email.com</p>
+            <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🎓 Formación</h3>
+            <p><strong>Edad:</strong> 22 años</p>
+            <p><strong>Nivel académico:</strong> Tecnicatura en Desarrollo de Software</p>
+        </div>
+
+        <div class="info-box">
+            <h3>🛠️ Tecnologías</h3>
+            <ul class="tech-list">
+                <li><span class="level experto"></span> JavaScript - Experto</li>
+                <li><span class="level intermedio"></span> Python - Intermedio</li>
+                <li><span class="level intermedio"></span> SQL - Intermedio</li>
+                <li><span class="level experto"></span> HTML - Experto</li>
+                <li><span class="level experto"></span> CSS - Experto</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h3>🤝 Habilidades Blandas</h3>
+            <ul class="soft-skills">
+                <li>💬 Comunicación efectiva</li>
+                <li>🤝 Trabajo en equipo</li>
+                <li>🧠 Pensamiento crítico</li>
+                <li>🔄 Adaptabilidad</li>
+                <li>⏰ Gestión del tiempo</li>
+            </ul>
+        </div>
+
+        <div class="info-box full-width">
+            <h3>📁 Portafolio</h3>
+            <p><strong>Nombre:</strong> Portafolio Profesional</p>
+            <p><strong>Fecha de creación:</strong> 15/05/2025</p>
+            <p><strong>Descripción:</strong> Este portafolio contiene los proyectos que he realizado durante mi formación y prácticas profesionales.</p>
+        </div>
+
+    </div>
     </section>
 
-    <section id="iniciar-sesion">
-        <h2>Iniciar sesión</h2>
-        <form>
-            <input type="text" placeholder="Usuario" required>
-            <input type="password" placeholder="Contraseña" required>
-            <button type="submit">Entrar</button>
-        </form>
+
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Aquí puedes ver algunos de los proyectos en los que he trabajado.</p>
+
+    <div class="carrusel-container">
+        <button class="carrusel-btn prev">&#10094;</button>
+
+        <div class="carrusel">
+            <div class="proyecto">
+                <img src="/PROYECT OLIVERA/imagenes/proyecto1.png" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+            </div>
+            <div class="proyecto">
+                <img src="/PROYECT OLIVERA/imagenes/proyecto2.png" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2.</p>
+            </div>
+            <div class="proyecto">
+                <img src="/PROYECT OLIVERA/imagenes/proyecto3.webp" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto 3.</p>
+            </div>
+        </div>
+
+        <button class="carrusel-btn next">&#10095;</button>
+    </div>
     </section>
+
+
 </main>
+<script src="/PROYECT OLIVERA/JS/carrusel.js" defer></script>
 
 </body>
 </html>
