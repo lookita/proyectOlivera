@@ -1,3 +1,5 @@
+
+//CARRUSEL 
 const carrusel = document.querySelector('.carrusel');
 const prevBtn = document.querySelector('.carrusel-btn.prev');
 const nextBtn = document.querySelector('.carrusel-btn.next');
