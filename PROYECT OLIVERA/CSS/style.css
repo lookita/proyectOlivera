@@ -195,3 +195,49 @@ nav a:hover {
         grid-column: span 1;
     }
 }
+.neon-box {
+    position: relative;
+    background-color: #111;
+    color: #fff;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.2),
+                0 0 50px rgba(0, 255, 255, 0.2);
+}
+
+.neon-box::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 15px;
+    z-index: -1;
+    background: linear-gradient(270deg, #ff00ff, #00ffff, #ff00ff);
+    background-size: 100% 600%;
+    animation: neonMove 5s linear infinite;
+    filter: blur(15px);
+    opacity: 0.8;
+}
+
+@keyframes neonMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
