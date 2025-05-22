@@ -1,0 +1,10 @@
+# Ignorar dependencias (se vuelven a instalar con npm install)
+node_modules
+
+# Ignorar el archivo con claves privadas
+.env
+
+# Ignorar archivos de errores temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
