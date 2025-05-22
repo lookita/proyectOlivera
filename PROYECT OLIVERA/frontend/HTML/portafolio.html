@@ -1,126 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/PROYECT OLIVERA/CSS/style.css">
-    <title>Mi Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Estudiante</title>
+  <link rel="stylesheet" href="/proyectOlivera/PROYECT OLIVERA/frontend/CSS/style.css">
 </head>
 <body>
 
-<header>
+  <header>
     <div class="logo">
-        <img src="/PROYECT OLIVERA/imagenes/SOLO CÓDIGO.png" alt="Logo">
+      <img src="/proyectOlivera/PROYECT OLIVERA/frontend/imagenes/SOLO CÓDIGO.png" alt="Logo del sitio">
     </div>
     <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#informacion">Información</a></li>
-        </ul>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<main>
-
-    <!-- INICIO: Presentación corta -->
-    <section id="inicio">
-        <div class="perfil">
-            <img src="/PROYECT OLIVERA/imagenes/20240914_195250 (1).jpg" alt="Foto de [Tu Nombre]" class="foto-personal">
-            <div class="datos">
-                <h2>¡Hola, soy Clara Agüero!</h2>
-                <p>Estudiante de desarrollo de software apasionado por la tecnología y la creación de soluciones innovadoras.</p>
-            </div>
+  <main>
+    <section id="perfil">
+      <div class="perfil">
+        <img src="/proyectOlivera/PROYECT OLIVERA/frontend/imagenes/20240914_195250 (1).jpg" alt="Foto personal" class="foto-personal">
+        <div class="datos">
+          <h2>Clara A. Agüero</h2>
+          <p>Estudiante de desarrollo web. Apasionado por el diseño UI/UX y la programación frontend.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- INFORMACIÓN: Detalles académicos y técnicos -->
-    <section id="informacion">
-    <h2>Información Personal y Profesional</h2>
-    <div class="info-grid">
-
-        <section class="neon-box">
+      <div class="info-grid">
         <div class="info-box">
-            <h3>📧 Contacto</h3>
-            <p><strong>Correo:</strong> tunombre@email.com</p>
-            <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
+          <h3>Información Personal</h3>
+          <p><strong>Email:</strong> claraagv54@gmail.com</p>
+          <p><strong>Teléfono:</strong> ‪+54 342 522 4397‬</p>
+          <p><strong>Ubicación:</strong> Santa Fe, Argentina</p>
         </div>
 
         <div class="info-box">
-            <h3>🎓 Formación</h3>
-            <p><strong>Edad:</strong> 22 años</p>
-            <p><strong>Nivel académico:</strong> Tecnicatura en Desarrollo de Software</p>
-        </div>
-
-        <div class="info-box">
-            <h3>🛠️ Tecnologías</h3>
-            <ul class="tech-list">
-                <li><span class="level experto"></span> JavaScript - Experto</li>
-                <li><span class="level intermedio"></span> Python - Intermedio</li>
-                <li><span class="level intermedio"></span> SQL - Intermedio</li>
-                <li><span class="level experto"></span> HTML - Experto</li>
-                <li><span class="level experto"></span> CSS - Experto</li>
-            </ul>
-        </div>
-
-        <div class="info-box">
-            <h3>🤝 Habilidades Blandas</h3>
-            <ul class="soft-skills">
-                <li>💬 Comunicación efectiva</li>
-                <li>🤝 Trabajo en equipo</li>
-                <li>🧠 Pensamiento crítico</li>
-                <li>🔄 Adaptabilidad</li>
-                <li>⏰ Gestión del tiempo</li>
-            </ul>
+          <h3>Información Profesional</h3>
+          <p>Formado en tecnologías web, con conocimientos sólidos en HTML, CSS, JavaScript y herramientas modernas de desarrollo frontend.</p>
         </div>
 
         <div class="info-box full-width">
-            <h3>📁 Portafolio</h3>
-            <p><strong>Nombre:</strong> Portafolio Profesional</p>
-            <p><strong>Fecha de creación:</strong> 15/05/2025</p>
-            <p><strong>Descripción:</strong> Este portafolio contiene los proyectos que he realizado durante mi formación y prácticas profesionales.</p>
+          <h3>Habilidades Técnicas</h3>
+          <ul class="tech-list">
+            <li><span class="level intermedio"></span> HTML y CSS</li>
+            <li><span class="level intermedio"></span> JavaScript</li>
+            <li><span class="level basico"></span> React</li>
+            <li><span class="level basico"></span> Node.js</li>
+          </ul>
         </div>
 
-    </div>
+        <div class="info-box full-width">
+          <h3>Habilidades Blandas</h3>
+          <ul class="soft-skills">
+            <li>Trabajo en equipo</li>
+            <li>Comunicación efectiva</li>
+            <li>Responsabilidad</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    </section>
-
-
-
-    <!-- PROYECTOS -->
     <section id="proyectos">
-    <h2>Proyectos</h2>
-    <p>Aquí puedes ver algunos de los proyectos en los que he trabajado.</p>
-
-    <div class="carrusel-container">
-        <button class="carrusel-btn prev">&#10094;</button>
-
+      <h2>Proyectos Destacados</h2>
+      <div class="carrusel-container">
         <div class="carrusel">
-            <div class="proyecto">
-                <img src="/PROYECT OLIVERA/imagenes/proyecto1.png" alt="Proyecto 1">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto 1.</p>
-            </div>
-            <div class="proyecto">
-                <img src="/PROYECT OLIVERA/imagenes/proyecto2.png" alt="Proyecto 2">
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto 2.</p>
-            </div>
-            <div class="proyecto">
-                <img src="/PROYECT OLIVERA/imagenes/proyecto3.webp" alt="Proyecto 3">
-                <h3>Proyecto 3</h3>
-                <p>Descripción breve del proyecto 3.</p>
-            </div>
+          <div class="proyecto">
+            <img src="/proyectOlivera/PROYECT OLIVERA/frontend/imagenes/proyecto1.png" alt="Proyecto 1">
+            <h3>Landing Page</h3>
+            <p>Una página de presentación para una startup ficticia, diseñada con HTML, CSS y JS.</p>
+          </div>
+          <div class="proyecto">
+            <img src="/proyectOlivera/PROYECT OLIVERA/frontend/imagenes/proyecto2.png" alt="Proyecto 2">
+            <h3>Portfolio Personal</h3>
+            <p>Mi propio sitio web de portafolio, accesible, responsive y con una estética moderna.</p>
+          </div>
         </div>
+        <button class="carrusel-btn prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M15.41 7.41 10.83 12l4.58 4.59L14 18l-6-6 6-6z"/>
+            </svg>
+        </button>
+          
+        <button class="carrusel-btn next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
+            </svg>
+        </button>          
 
-        <button class="carrusel-btn next">&#10095;</button>
-    </div>
+
+          
+      </div>
     </section>
-
-
-</main>
-<script src="/PROYECT OLIVERA/JS/carrusel.js" defer></script>
-
+  </main>
+<script src="/proyectOlivera/PROYECT OLIVERA/frontend/JS/main.js"></script>
 </body>
-</html>
