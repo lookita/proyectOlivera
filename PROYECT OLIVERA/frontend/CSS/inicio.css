@@ -22,7 +22,10 @@ header {
 }
 
 .logo img {
-    height: 50px;
+  width: 75px;      /* O el tamaño que quieras */
+  height: 75px;     /* Asegúrate de que el ancho y alto sean iguales para que quede perfectamente circular */
+  border-radius: 50%;
+  object-fit: cover; /* Para que la imagen no se distorsione y cubra el área circular */
 }
 
 nav ul {
