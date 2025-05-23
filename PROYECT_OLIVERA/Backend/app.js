@@ -17,7 +17,7 @@ app.use('/api/categorias', require('./routes/categRutas'));
 app.use('/api/comentarios', require('./routes/comentarioRutas'));
 app.use('/api/etiquetas', require('./routes/etiquetaRutas'));
 app.use('/api/multimedia', require('./routes/multimediaRutas'));
-app.use('/api/notificaciones', require('./routes/notifiRutas'));
+app.use('/api/notificaciones', require('./routes/notifi.Rutas'));
 app.use('/api/portafolios', require('./routes/portafolioRutas'));
 app.use('/api/reportes', require('./routes/reportesRutas'));
 app.use('/api/seguimientos-usuarios', require('./routes/seguimiento_usuarioRutas'));

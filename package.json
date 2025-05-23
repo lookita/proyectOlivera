@@ -4,8 +4,8 @@
   "description": "Pagina de portafolio",
   "main": "server.js",
   "scripts": {
-  "start": "node PROYECT OLIVERA/server.js",
-  "dev": "nodemon PROYECT OLIVERA/server.js"
+  "start": "node PROYECT_OLIVERA/backend/server.js",
+  "dev": "nodemon PROYECT_OLIVERA/backend/server.js"
 },
   "repository": {
     "type": "git",
