@@ -1,0 +1,31 @@
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.foto-personal {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #66fcf1;
+}
+
+.datos h2 {
+  font-size: 2rem;
+  color: #66fcf1;
+}
+
+@media (min-width: 768px) {
+  .perfil {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .datos {
+    margin-left: 2rem;
+  }
+}
